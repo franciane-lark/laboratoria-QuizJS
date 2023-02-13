@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tela Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Projeto Laboratória Trivia </h1>
+    </header>
+
+    <main>
+        <form>
+            <section>
+
+                <span class="quiz_1">1. Qual a cor da bandeira do Brasil?</span>
+                <br>
+                <input type="radio" id="opcaolaranja" name="resposta" value="laranja">
+                <label for="laranja">Branco e Laranja</label>
+
+                <br>
+                <input type="radio" id="opcaoverdeamarelo" name="resposta" value="verde_amarelo">
+                <label for="verde_amarelo">Verde e Amarelo</label>
+
+                <br>
+                <input type="radio" id="opcaoroxobranco" name="resposta" value="roxo_branco">
+                <label for="roxo_branco">Roxo</label>
+
+                <br>
+                <button id="btn1" class="button-result1" onclick="myfunction1()">responder e ver resultado</button>
+            </section>
+
+            <section>
+                <span class="quiz_2">2. Quem é o novo presidente do Brasil?</span>
+
+                <br>
+                <input type="radio" name="resultado" id="opacaoBolsonare" valeu="Bolsonare">
+                <label for="Bolsonare">Bolsonare</label>
+
+                <br>
+                <input type="radio" name="resultado" id="opcaoPadreKelmon" valeu="PadreKelmon">
+                <label for="PadreKelmon">Padre kelmon </label>
+
+                <br>
+                <input type="radio" name="resultado" id="opcaoLula" valeu="Lula" <label for="Lula">Lula</label>
+
+                <br>
+                <button id="btn2" class="button-result2" onclick="myfunction2()">responder e ver resultado</button>
+            </section>
+
+            <section>
+                <span class="quiz_3">3. Quais desses signos é de terra?</span>
+
+                <br>
+                <input type="radio" name="resultados" id="opcaotouro" valeu="Touro">
+                <label for="Touro">Touro</label>
+
+                <br>
+                <input type="radio" name="resultados" id="opcaocancer" valeu="Cancêr">
+                <label for="Cancêr">Cancêr </label>
+
+                <br>
+                <input type="radio" name="resultados" id="opcaosagitario" valeu="Sagitário">
+                <label for="Sagitário">Sagitário</label>
+
+                <br>
+                <button id="btn3" class="button-result3" onclick="myfunction3()">responder e ver resultado</button>
+            </section>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>@Feito com carinho</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
